@@ -1,0 +1,44 @@
+body{
+	background-color : black;
+}
+
+*{
+	color: white;
+	text-align: center;
+}
+
+
+.navbar {
+    display: flex;
+  
+/* This is used to make the navbar sticky, So that the
+    navbar stays at the top part even if we scroll */
+    position: sticky; 
+    align-items: center;
+    justify-content: center;
+    top: 0px;
+	background-color: white;
+  
+/*it specifies the mouse cursor to be displayed
+    when it is pointed over the element */
+    cursor: pointer;
+}
+  
+.nav-list {
+    width: 50%;
+    display: flex;
+}
+  
+.nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+}
+  
+.nav-list li a {
+    text-decoration: none;
+    color: grey;
+}
+  
+.nav-list li a:hover {
+    color: black;
+}

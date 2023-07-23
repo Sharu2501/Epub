@@ -1,0 +1,83 @@
+@charset "utf-8";
+*{
+	text-align: center;
+}
+
+h1, p, div{
+	color: white;
+}
+
+body{
+	background-color: black;
+}
+
+
+iframe{
+	width: 100%;
+}
+
+.navbar {
+    display: flex;
+  
+/* This is used to make the navbar sticky, So that the
+    navbar stays at the top part even if we scroll */
+    position: sticky; 
+    align-items: center;
+	justify-content: center;
+    top: 0px;
+	background-color: white;
+  
+/*it specifies the mouse cursor to be displayed
+    when it is pointed over the element */
+    cursor: pointer;
+}
+  
+.nav-list {
+    width: 50%;
+    display: flex;
+	justify-content: center;
+}
+  
+.nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+}
+  
+.nav-list li a {
+    text-decoration: none;
+    color: grey;
+}
+  
+.nav-list li a:hover {
+    color: black;
+}
+
+select{
+	color: black;
+}
+
+input{
+	color: black;
+}
+
+textarea{
+	color: black;
+}
+
+name{
+	width: 6em;
+	display: inline-block;
+}
+
+label{
+	width: 6em;
+	display: inline-block;
+	padding: 3px;
+}
+
+select{
+	text-align: center;
+}
+
+
+  

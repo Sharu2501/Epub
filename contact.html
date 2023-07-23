@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="fr">
+      <head>
+         <meta charset="utf-8"/>
+		 <link rel="stylesheet" href="contact.css"/>
+		 <title>Contact</title>
+		 <h1> Contact </h1>
+	</head>
+	<body>
+
+		<nav class="navbar background">
+            <ul class="nav-list">
+                <li><a href="accueil.html">Page d'accueil</a></li>
+                <li><a href="regles.html">Règles du jeu</a></li>
+                <li><a href="jeu.html">Jeu</a></li>
+				<li><a href="histoire.html">Chapitres</a></li>
+				<li><a href="matiere.html">Table des matières</a></li>
+				<li><a href="contact.html">Contact</a></li>
+            </ul>
+            
+    </nav>
+	
+	
+	<p> Des questions, remarques ou autres? Envoyez nous un message ! </p>
+	
+	<form action="accueil.html" method="POST">
+	
+	<p>Qui souhaitez-vous contacter?</p>
+	
+	<label id="select" for="select-contact"></label>
+
+	<select name="contact" id="contact-select">
+		<option value="question">--Veuillez choisir une option--</option>
+		<option value="auteur">Steve Jackson</option>
+		<option value="traducteur">Michel Zenon</option>
+		<option value="illustrateur">Tim Sell</option>
+		<option value="edition">Gallimard</option>
+		<option value="site">Shakana</option>
+	</select>
+	
+	<div>
+		<label for="name">Nom</label>
+		<input type="text" id="name" required />
+	</div>
+	
+	<div>
+		<label for="surname">Prénom</label>
+		<input type="text" id="surname" />
+	</div>
+  
+	<div>
+		<label for="mail">E-mail</label>
+		<input type="mail" id="mail" name="user_email" />
+	</div>
+	
+	<div>
+		<label for="objet">Objet</label>
+		<input type="text" id="objet" name="objet" />
+	</div>
+  
+	<div>
+		<label for="msg"> </label>
+		<textarea id="msg" name="user_message"></textarea>
+	</div>
+	
+	<input id ="envoyer" type="submit" value="Envoyer"/>
+	
+	
+	</form>
+
+
+	</body>
+</html>
+		 
